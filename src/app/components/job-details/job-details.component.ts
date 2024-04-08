@@ -44,6 +44,7 @@ export class JobDetailsComponent implements OnInit, OnDestroy {
   goToJobs(): void {
     this.router.navigate(['/jobs']);
   }
+  
 
   ngOnDestroy(): void {
     this.subscriptions$.unsubscribe();

@@ -45,7 +45,7 @@ export class JobsComponent implements OnInit, OnDestroy {
         .subscribe()
     );
   }
-
+  
   setIsFavorite(job: Jobs): boolean {
     return this.favoriteJobsList?.length &&
       this.favoriteJobsList.filter((favJob: Jobs) => favJob.id === job.id)
