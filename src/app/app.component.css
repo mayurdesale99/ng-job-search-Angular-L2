@@ -15,7 +15,7 @@
   float: left;
   list-style: none;
   text-align: center;
-  background-color: #beeef5;
+  background-color: #bdd3d6;
   margin-right: 30px;
   width: 45%;
   line-height: 70px;
@@ -30,6 +30,6 @@
 
 
 .active {
-  background-color: #beeef5 !important;
+  background-color: #bdd3d6 !important;
 }
 
